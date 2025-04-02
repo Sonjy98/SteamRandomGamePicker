@@ -2,6 +2,8 @@
 
 A simple PHP + JavaScript app that helps you decide what to play by randomly selecting a game from your Steam library.
 
+![Screenshot of the website displaying a random game, in this instance Abiotic Factor.](https://imgur.com/XDPmpPB)
+
 ## 🧩 Features
 
 - 🎲 Picks a random game from your Steam account
@@ -17,22 +19,25 @@ A simple PHP + JavaScript app that helps you decide what to play by randomly sel
 To run this project locally, you'll need PHP (or XAMPP), Composer, and a Steam Web API key.
 
 ### 1. 🔁 Clone the Repository
-
+```
 git clone https://github.com/Sonjy98/SteamRandomGamePicker.git
 cd SteamRandomGamePicker
-
+```
 2. 📦 Install Dependencies
 Use Composer to install the dotenv library:
-
+```
 composer install
+```
 Make sure you have Composer installed on your system.
 
 4. 🔐 Create Your .env File
 In the project root, create a .env file that looks like this:
-
+```
 STEAM_API_KEY=your_steam_web_api_key_here
 STEAM_ID=your_64bit_steam_id_here
-You can get your Steam Web API key here
+```
+
+You can get your Steam Web API key here: https://steamcommunity.com/dev/apikey
 
 To find your 64-bit Steam ID, use https://steamid.io
 
