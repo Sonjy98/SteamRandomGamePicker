@@ -2,8 +2,6 @@
 
 A simple PHP + JavaScript app that helps you decide what to play by randomly selecting a game from your Steam library.
 
-![Screenshot](screenshot.png)
-
 ## 🧩 Features
 
 - 🎲 Picks a random game from your Steam account
